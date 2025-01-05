@@ -42,6 +42,7 @@ struct RecipeCardView: View {
                 }
                 Text(recipe.name)
                     .font(.title)
+                    .multilineTextAlignment(.center)
                 VideoView(videoURL: recipe.youtubeUrl ?? "")
                     .clipShape(RoundedRectangle(cornerRadius: 10))
                 Spacer()
