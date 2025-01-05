@@ -1,7 +1,7 @@
 # RecipeExplorer
 
 ### Steps to Run the App
-Just compile and run on device or simulator.
+Just compile and run on device or simulator. My app runs on iOS 17 or later.
 
 ### Focus Areas: What specific areas of the project did you prioritize? Why did you choose to focus on these areas?
 I mainly prioritized the UI, as that is my main passion when it comes to iOS development.
