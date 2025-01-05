@@ -10,7 +10,7 @@ I mainly prioritized the UI, as that is my main passion when it comes to iOS dev
 I spent a little more than 5 hours working on this project. The reason I took a bit longer was because I had to learn how to cache images and the XCTest framework on the fly, as they are something I haven't done or haven't used in a while, respectively. I mainly allocated time to getting tests and the caching working.
 
 ### Trade-offs and Decisions: Did you make any significant trade-offs in your approach?
-I would've added a favorite recipe feature and the ability to filter recipes based on cuisines, but due to time constraints I didn't do so. As well, I would've made the UI look a little prettier but due to the same reason as above I didn't do so.
+I would've added a favorite recipe feature, the ability to filter recipes based on cuisines and a search feature, but due to time constraints I didn't do so. As well, I would've made the UI look a little prettier but due to the same reason as above I didn't do so.
 
 ### Weakest Part of the Project: What do you think is the weakest part of your project?
 I think I could've made more comprehensive tests, but due to time I didn't. 

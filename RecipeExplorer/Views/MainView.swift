@@ -48,17 +48,23 @@ struct MainView: View {
                     Text("No recipes found, sorry!")
                 }
             }
-            .task {
-                do {
-                    try await viewModel.fetchRecipes()
-                } catch {
-                    recipeLoadFailure = true
+            .alert("Error loading recipes!",
+                   isPresented: $recipeLoadFailure) {
+                Button("OK") {
+                    recipeLoadFailure = false
+                }
+            }
+                .task {
+                    do {
+                        try await viewModel.fetchRecipes()
+                    } catch {
+                        recipeLoadFailure = true
+                    }
                 }
             }
         }
     }
-}
-
-#Preview {
-    MainView()
-}
+    
+    #Preview {
+        MainView()
+    }
