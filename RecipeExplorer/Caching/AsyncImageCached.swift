@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct AsyncImageCached<Content> : View where Content : View {
+struct AsyncImageCached<Content>: View where Content : View {
     internal let url: URL
     internal let scale: CGFloat
     internal let transaction: Transaction
