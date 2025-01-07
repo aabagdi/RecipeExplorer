@@ -9,7 +9,7 @@ import SwiftUI
 import WebKit
 
 struct VideoView: UIViewRepresentable {
-    let videoURL : String
+    let videoURL: String
     
     func makeUIView(context: Context) -> WKWebView {
         return WKWebView()
